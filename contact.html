@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Contact page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+</head>
+
+<body>
+
+
+
+  <div class="container" style="color: rgb(248, 247, 241);">
+
+    <div class="text-center">
+      <h2 style="color: rgb(10, 106, 233);">Contact us</h2>
+
+    </div>
+    <fieldset style="padding-left: 25%;">
+      <form name="frmContact" class="needs-validation " method="post" action="contact.php">
+        <p>
+          <label for="Name" style="color:black">Your Name </label>
+          <input type="text" class="form-control" name="txtName" id="txtName" placeholder="Name" value=""
+            style="width: 500px;color: black;" required>
+        <div class="invalid-feedback">
+          
+        </div>
+        </p>
+        <p>
+          <label for="email" style="color:black;width: 500px;">Your Email</label>
+          <input type="text" class="form-control" name="txtEmail" id="txtEmail" placeholder="Email"
+            style="width: 500px;" value="" required>
+        </p>
+        <p>
+          <label for="phone" style="color:black;width: 500px;">Your Phone</label>
+          <input type="text" class="form-control" name="txtPhone" id="txtPhone" placeholder="Phone"
+            style="width: 500px;" value="" required>
+        </p>
+        <p>
+          <label for="message" style="color:black; ">Message</label>
+          <textarea name="txtMessage" class="form-control" id="txtMessage" placeholder="Message"
+            style="width: 500px; height: 100px;" required></textarea>
+        </p>
+        <p>&nbsp;</p>
+        <p>
+          <input  type="submit" name="Submit" id="Submit" value="SEND ME" class="btn btn-primary">
+        </p>
+      </form>
+    </fieldset>
+  </div>
+  </div>
+  </div>
+  </div>
+ 
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
